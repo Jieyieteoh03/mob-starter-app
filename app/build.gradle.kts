@@ -2,14 +2,16 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
     id("androidx.navigation.safeargs")
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
-    namespace = "com.jy.mob"
+    namespace = "com.jy.mobstarterapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.jy.mob"
+        applicationId = "com.jy.mobstarterapp"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
@@ -55,4 +57,12 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.fragment.ktx)
+
+    implementation("com.google.dagger:hilt-android:2.51.1")
+    kapt("com.google.dagger:hilt-android-compiler:2.51.1")
 }
+
+kapt{
+    correctErrorTypes = true
+}
+

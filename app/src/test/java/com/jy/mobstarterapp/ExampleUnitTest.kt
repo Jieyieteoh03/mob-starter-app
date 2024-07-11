@@ -1,4 +1,4 @@
-package com.jy.mob21retrofit
+package com.jy.mobstarterapp
 
 import org.junit.Test
 

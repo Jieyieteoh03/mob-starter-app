@@ -1,4 +1,4 @@
-package com.jy.mob21retrofit
+package com.jy.mobstarterapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
