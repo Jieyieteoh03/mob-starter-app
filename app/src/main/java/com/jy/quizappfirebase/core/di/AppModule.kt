@@ -1,4 +1,4 @@
-package com.jy.mobstarterapp.core.di
+package com.jy.quizappfirebase.core.di
 
 import dagger.Module
 import dagger.Provides

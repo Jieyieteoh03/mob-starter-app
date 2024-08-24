@@ -1,4 +1,4 @@
-package com.jy.mobstarterapp.ui
+package com.jy.quizappfirebase.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

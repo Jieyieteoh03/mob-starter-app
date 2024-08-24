@@ -1,11 +1,11 @@
-package com.jy.mobstarterapp
+package com.jy.quizappfirebase
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.jy.mobstarterapp.core.di.Utils.debugLog
+import com.jy.quizappfirebase.core.di.Utils.debugLog
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
